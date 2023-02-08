@@ -13,7 +13,7 @@ dotnet run --project ./Runner__IAction_NamePropertyAdded
 It fails with the below logs.
 
 ```
-Unhandled exception. System.TypeLoadException: Method 'get_Name' in type 'FirstImplementation.Action' from assembly 'FirstImplementation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+Unhandled exception. System.TypeLoadException: Method 'get_Name' in type 'Implementation.Action' from assembly 'Implementation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
    at System.Reflection.RuntimeAssembly.GetType(QCallAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type, ObjectHandleOnStack keepAlive, ObjectHandleOnStack assemblyLoadContext)
    at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
    at System.Reflection.Assembly.GetType(String name)

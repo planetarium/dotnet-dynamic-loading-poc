@@ -1,5 +1,5 @@
 ﻿using InterfaceProject;
-namespace FirstImplementation;
+namespace Implementation;
 public class Action : IAction
 {
     IAccountStateDelta IAction.Execute(IActionContext context) {

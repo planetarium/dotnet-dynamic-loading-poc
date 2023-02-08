@@ -17,6 +17,6 @@ dotnet run --project ./Runner__IActionContext_GetCouponMethodAdded
 ```
 Test
 Unhandled exception. System.MissingMethodException: Method not found: 'Int64 InterfaceProject.IActionContext.get_BlockIndex()'.
-   at FirstImplementation.Action.InterfaceProject.IAction.Execute(IActionContext context)
+   at Implementation.Action.InterfaceProject.IAction.Execute(IActionContext context)
    at Program.<Main>$(String[] args) in /path/to/dotnet-dynamic-loading-poc/Runner__IActionContext_GetCouponMethodAdded/Program.cs:line 17
 ```

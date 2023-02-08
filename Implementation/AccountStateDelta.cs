@@ -1,5 +1,5 @@
 using InterfaceProject;
-namespace FirstImplementation;
+namespace Implementation;
 public class AccountStateDelta : IAccountStateDelta {
     string IAccountStateDelta.GetState(string key)
     {
