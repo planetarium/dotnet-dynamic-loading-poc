@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner__IAction_NamePropert
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner__IAction_NamePropertyWithDefaultImplAdded", "Runner__IAction_NamePropertyWithDefaultImplAdded\Runner__IAction_NamePropertyWithDefaultImplAdded.csproj", "{1ACD2C39-13F5-4DA9-A1CD-C4747DF4298D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceProject__VersionChanged", "InterfaceProject__VersionChanged\InterfaceProject__VersionChanged.csproj", "{06034F7E-FDE8-48E2-B0EE-E32D91DD4C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner__VersionChanged", "Runner__VersionChanged\Runner__VersionChanged.csproj", "{93FE7037-00F7-41A4-B40D-629C19BB854A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{1ACD2C39-13F5-4DA9-A1CD-C4747DF4298D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ACD2C39-13F5-4DA9-A1CD-C4747DF4298D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ACD2C39-13F5-4DA9-A1CD-C4747DF4298D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06034F7E-FDE8-48E2-B0EE-E32D91DD4C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06034F7E-FDE8-48E2-B0EE-E32D91DD4C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06034F7E-FDE8-48E2-B0EE-E32D91DD4C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06034F7E-FDE8-48E2-B0EE-E32D91DD4C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FE7037-00F7-41A4-B40D-629C19BB854A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FE7037-00F7-41A4-B40D-629C19BB854A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FE7037-00F7-41A4-B40D-629C19BB854A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FE7037-00F7-41A4-B40D-629C19BB854A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
