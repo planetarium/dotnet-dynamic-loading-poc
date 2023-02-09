@@ -23,3 +23,22 @@ Unhandled exception. System.MissingMethodException: Method not found: 'System.St
    at Implementation.Action.InterfaceProject.IAction.Execute(IActionContext context)
    at Program.<Main>$(String[] args) in /path/to/dotnet-dynamic-loading-poc/Runner__IAccountStateDelta_GetBalanceMethodAdded/Program.cs:line 17
 ```
+
+만약 인터페이스 메소드 기본 구현을 주게 된다면 메소드를 추가해도 문제는 없지만 `IAccountStateDelta`를 반환 받아 처리하는 쪽에서 추가적으로 처리를 해줘야할 수 있습니다. (i.e., Libplanet 코드 가정 오염.)
+
+추가한 코드:
+
+```csharp
+-     long GetBalance(string key);
++     long GetBalance(string key) { throw new NotImplementedException(); }
+```
+
+출력:
+
+```
+Test
+Logging block index : 0
+Unhandled exception. System.NotImplementedException: The method or operation is not implemented.
+   at InterfaceProject.IAccountStateDelta.GetBalance(String key) in /Users/moreal/github/planetarium/dotnet-dynamic-loading-poc/InterfaceProject__IAccountStateDelta_GetBalanceMethodAdded/IAccountStateDelta.cs:line 6
+   at Program.<Main>$(String[] args) in /path/to/dotnet-dynamic-loading-poc/Runner__IAccountStateDelta_GetBalanceMethodAdded/Program.cs:line 18
+```

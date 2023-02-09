@@ -14,5 +14,6 @@ var instance = Activator.CreateInstance(type);
 if (instance is InterfaceProject.IAction action)
 {
     Console.WriteLine("Test");
-    action.Execute(new ActionContext());
+    var states = action.Execute(new ActionContext());
+    Console.WriteLine(states.GetBalance("key"));
 }
