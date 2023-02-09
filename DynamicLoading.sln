@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner__IAccountStateDelta_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner__IActionContext_GetCouponMethodAdded", "Runner__IActionContext_GetCouponMethodAdded\Runner__IActionContext_GetCouponMethodAdded.csproj", "{C44EAA71-005D-4937-B86F-950FD52595DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bencodex", "Bencodex\Bencodex.csproj", "{3B8AA4A8-8E4B-4C9C-AC73-4FC294931920}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{C44EAA71-005D-4937-B86F-950FD52595DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44EAA71-005D-4937-B86F-950FD52595DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44EAA71-005D-4937-B86F-950FD52595DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8AA4A8-8E4B-4C9C-AC73-4FC294931920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8AA4A8-8E4B-4C9C-AC73-4FC294931920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8AA4A8-8E4B-4C9C-AC73-4FC294931920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8AA4A8-8E4B-4C9C-AC73-4FC294931920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

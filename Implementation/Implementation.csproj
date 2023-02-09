@@ -14,4 +14,11 @@
     </ProjectReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bencodex\Bencodex.csproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+
 </Project>
